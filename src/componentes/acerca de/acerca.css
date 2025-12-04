@@ -1,0 +1,56 @@
+.acerca{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.acerca-izquierda{
+    flex-basis: 40%;
+
+}
+
+.acerca-derecha{
+    flex-basis: 70%;
+}
+
+.acerca h3{
+    font-weight: 600;
+    font-weight: 16px;
+    color: #000f38;
+}
+
+.acerca h2{
+    font-size: 30px;
+    color:#009dd5;
+    margin: 10px 0;
+    max-width: 400px;
+
+}
+.acerca-derecha p {
+    justify-content: center;
+    text-align:justify;
+    margin-bottom: 15px;
+    
+}
+
+.acerca-img{
+    width: 70%;
+    height: 10%;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px){
+    .acerca{
+        flex-direction: column;
+    }
+    .acerca-izquierda{
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+    }
+    .acerca-derecha{
+        flex-basis: 100%;
+    }
+}
