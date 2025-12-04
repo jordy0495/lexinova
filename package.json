@@ -1,22 +1,21 @@
 {
-  "homepage":"https://github.com/jordy0495/lexinova",
-  "name": "lexonva",
+  "homepage": "https://github.com/jordy0495/lexinova",
+  "name": "lexinova",
   "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages  -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router-dom": "^7.10.1",
     "react-scroll": "^1.9.3"
   },
   "devDependencies": {
